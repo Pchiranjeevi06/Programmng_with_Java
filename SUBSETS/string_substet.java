@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class string_substet{
-    public static void main(String ars[]){
+    public static void main(String[] ars){
         Scanner s = new Scanner(System.in);
         String l=s.next();
         char[] m=l.toCharArray();
