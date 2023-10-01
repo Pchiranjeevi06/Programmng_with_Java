@@ -15,7 +15,7 @@ public class string_substet{
             int q=l.indexOf(d);
             StringBuilder f= new StringBuilder();
             for(int i=q;i<l.length();i++) {
-                f.append(" ").append(m[i]);
+                f.append(m[i]);
                 System.out.println(f);
                 j++;
             }
