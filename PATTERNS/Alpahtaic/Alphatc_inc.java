@@ -1,4 +1,4 @@
-package PATTERNS;
+package PATTERNS.Alpahtaic;
 
 import java.util.Scanner;
 
