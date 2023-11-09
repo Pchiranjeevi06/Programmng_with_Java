@@ -2,17 +2,12 @@ package normal;
 
 class gcd2 {
     public int findGCD(int[] nums) {
-        int min = nums[0];
-        int max = nums[0];
+        int gcd = nums[0];
+        int lcm = nums[0];
         for(int i=1;i<nums.length;i++){
-            if(nums[i]>max){
-                max= nums[i];
-            }
-            if(nums[i]<min){
-                min=nums[i];
-            }
+           gcd= gcd(gcd,nums[i]);
         }
-        return gcd(min,max);
+        return gcd;
     }
     public static int gcd(int a,int b){
 //        if(b==0){
@@ -28,7 +23,7 @@ class gcd2 {
     }
 
     public static void main(String[] args) {
-        int[] num = new int[] {5,6,9,17};
+        int[] num = new int[] {8,12,20};
         gcd2 s= new gcd2();
         int k=s.findGCD(num);
         System.out.println(k);

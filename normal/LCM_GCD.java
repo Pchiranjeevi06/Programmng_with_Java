@@ -18,7 +18,6 @@ public class LCM_GCD {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         ArrayList<Integer> arr=new ArrayList<>();
-       //   we can give n number of numbers which will go into methods get gcd and hcf. but until value becomes 0
         while(true){
             int num=sc.nextInt();
             if (num==0){
